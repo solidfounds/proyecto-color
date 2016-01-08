@@ -1,9 +1,28 @@
 body{
 	background-color: #ec6a38;
+	  -webkit-animation:colour 10s linear infinite;
 }
 h1{
 	color: #fff;
+	text-align: center;
+	font-size: 6rem;
+	font-family: 'Open Sans', sans-serif;
 }
 .colorcafe{
 	color: brown;
+}
+
+@-webkit-keyframes colour{
+	0%{
+		background:#ec6a38
+	}
+	40%{
+		background:#ec4038
+	}
+	80%{
+		background:#ec9138
+	}
+	100%{
+		background:#ec6a38
+	}
 }
